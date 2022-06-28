@@ -1,0 +1,103 @@
+* {text-rendering: optimizeLegibility;}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+body{
+    display:block;
+    width: 100%;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 44px;
+    text-decoration: underline;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+}
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+}
+article{
+    margin-bottom: 64px;
+}
+object{
+    margin: 10px;
+}
+.x{
+    position: fixed;
+    width: 100%;
+}
+.app_navbar{
+    display: block;
+    background-color: #99C346;
+    height: 64px;
+    width: 100%;
+    box-shadow: 0 0 30px #848484;
+}
+.description{
+    display: block;
+    text-align: center;
+    margin-top: 128px;
+    margin-bottom: 64px;
+}
+.box{
+    border: 1px solid rgb(218, 220, 224);
+    padding: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border-radius: 4px;
+}
+.notbooksimgs{
+    width: -webkit-fill-available;
+    
+}
+.col-esp{
+    display: grid;
+    width: auto;
+    padding: 5%;
+}
+.col-img{
+    width: auto;
+    padding: 5%;
+}
+.verPreco{
+    width: 220px;
+    margin-top: 32px;
+    padding: 12px;
+    background-color: #84a345;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    color: #FFF;
+}
+.btncointainer{
+    text-align: center;
+}
+.cfooter{
+    box-shadow: 0 0 30px #848484;
+    height: 180px;
+    background-color: #99C346;
+    margin-top: 32px;
+}
+
+@media screen and (min-width: 1000px) {
+    .modallogin {
+        border: 1px solid rgb(218, 220, 224);
+        border-radius: 12px;
+        margin: 44px;
+    }
+    .col-esp{
+        width: 50%;
+        padding: 3%;
+    }
+    .col-img{
+        width: 42%;
+        padding: 3%;
+    }
+}
