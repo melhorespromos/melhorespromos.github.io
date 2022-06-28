@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html style="padding: 0; margin: 0;">
     <head></head>
     <body style="padding: 0; margin: 0;">
